@@ -23,7 +23,6 @@ Esse é um projeto de Front-end com base nas aulas gratuitas do Dev Em Dobro. O 
 ### Links
 
 - URL da solução: [Repositório](https://github.com/maiarasteffen/onePiece)
-- URL do site: [Site](https://maiarasteffen.github.io)
 
 ## Meu Processo
 
