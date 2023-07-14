@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso de React</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <img class="logo" src="./src/img/One-Piece-Logo.png" alt="Logo One Piece">
+    </header>
+    <main class="selecao-de-personagens">
+        <section class="personagens">
+            <h1 class="titulo">Selecione um personagem</h1>
+            <ul class="lista-de-personagens">
+                <li class="personagem selecionado" id="luffy" data-name="Monkey-D-Luffy" data-description="Ele é o capitão e sua missão é se tornar o Rei dos Piratas, também comeu o Gomo-gomo-nomy, a fruta que deu poderes de elasticidade.">
+                    <img src="./src/img/cartaz_luffy.png" alt="Personagem Luffy">
+                </li>
+                <li class="personagem" id="zoro" data-name="Roronoa Zoro" data-description="Conhecido pelos que o temem como o caçador de piratas, mas seu desejo sempre foi se tornar o maior espadachim da Grand Line para cumprir a promessa que fez a sua amiga quando criança.">
+                    <img src="./src/img/cartaz_zoro.png" alt="Personagem Zoro">
+                </li>
+                <li class="personagem" id="nami" data-name="Nami" data-description="É uma jovem muito linda e também ambiciosa, é considerada a melhor navegadora da Grand Line por sua capacidade de previsão de tempo.">
+                    <img src="./src/img/cartaz_nami.png" alt="Personagem Nami">
+                </li>
+                <li class="personagem" id="usopp" data-name="Usopp" data-description="Um grande mentiroso e com habilidades para miras com estilingues, suas criações ajudam a todos do navio.">
+                    <img src="./src/img/cartaz_usopp.png" alt="Personagem Usopp">
+                </li>
+                <li class="personagem" id="sanji" data-name="Sanji" data-description="Um cozinheiro de mão cheia, com habilidades de utilizar toda a comida sem desperdício. Seu sonho é encontrar o mar mítico onde os peixes de todos os quatro dos mares do mundo se reúnem.">
+                    <img src="./src/img/cartaz_sandy.png" alt="Personagem Sanji">
+                </li>
+                <li class="personagem" id="chopper" data-name="Chopper" data-description="Um alce que comeu uma cumanomi e consegue se transformar em homem, ele adora ser paparicado e é um excelente médico.">
+                    <img src="./src/img/cartaz_chopper.png" alt="Personagem Chopper">
+                </li>
+                <li class="personagem" id="robin" data-name="Nico Robin" data-description="Desde criança foi nomeada uma historiadora grandiosa, seguindo o exemplo de sua mãe. Também comeu a fruta do diabo que tem poderes de multiplicar partes de seu corpo.
+                ">
+                    <img src="./src/img/cartaz_robin.png" alt="Personagem Robin">
+                </li>
+                <li class="personagem" id="franky" data-name="Franky" data-description="O carpinteiro, que quando criança ajudou a construir o navio do Gold-Roger. Ele é como um ciborgue que para repor energia precisa de refrigerante.">
+                    <img src="./src/img/cartaz_franky.png" alt="Personagem Franky">
+                </li>
+            </ul>
+        </section>
+        <section class="personagem-selecionado">
+            <img class="personagem-grande" src="./src/img/luffy_grande.png" alt="Personagem Selecionado">
+            <div class="informacoes-personagem">
+                <h2 id="nome-personagem" class="nome-personagem">Monkey-D-Luffy</h2>
+                <p class="descricao-personagem" id="descricao-personagem">Ele é o capitão e sua missão é se tornar o Rei dos Piratas, também comeu o Gomo-gomo-nomy, a fruta que deu poderes de elasticidade.</p>
+            </div>
+        </section>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+</html>

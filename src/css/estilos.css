@@ -1,0 +1,97 @@
+body {
+    font-family: 'Times new Roman', serif;
+    background-color: #000;
+    color: #fff;
+}
+
+body::before {
+    content: '';
+    background-image: url(../img/mapa-one-piece.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.2;
+}
+
+.logo {
+    width: 252px;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: center;
+}
+
+.selecao-de-personagens {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    min-height: calc(100vh - 152px);
+    justify-content: center;
+}
+
+.selecao-de-personagens .lista-de-personagens {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.selecao-de-personagens .personagens {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 700px;
+    gap: 25px;
+}
+
+.selecao-de-personagens .personagens .titulo {
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border-bottom: 4px solid #E32E1B;
+    width: 100%;
+    text-align: center;
+}
+
+.lista-de-personagens .personagem {
+    border-bottom: 4px solid #E32E1B;
+}
+
+.lista-de-personagens .personagem img {
+    width: 100%;
+    height: 100%;
+}
+
+.lista-de-personagens .personagem.selecionado {
+    box-shadow: 0px 0px 24px 5px #E32E1B;
+}
+
+.personagem-selecionado {
+    text-align: center;
+    max-height: 530px;
+}
+
+.personagem-selecionado .personagem-grande {
+    width: 430px;
+    height: 430px;
+}
+
+.personagem-selecionado .nome-personagem {
+    border-bottom: 4px solid #E32E1B;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.personagem-selecionado .descricao-personagem {
+    font-size: 23px;
+    letter-spacing: 2px;
+    line-height: 22px;
+    text-align: center;
+    margin: 20px auto;
+    width: 420px;
+}
